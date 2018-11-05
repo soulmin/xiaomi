@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.size_nav{
+	width:100%;
+	height: 40px;
+	background: #333333;
+}
+.size_nav_center{
+	margin: 0px auto;
+	width: 1226px;
+	height: 100%;
+}
+.size_nav_ul{
+	padding: 10px 0px;
+	list-style: none;
+	display: flex;
+	float: left;
+	
+}
+.size_nav_ul li{
+	line-height: 0.5em;
+	font-size: 13px;
+	margin: 5px;
+	color:#757575 ;
+}
+.size_nav_center span{
+	color: #424242;
+	line-height: 0.5em;
+	margin: 5px;
+}
+.size_nav_login{
+	margin-left: 75%;
+	height: 100%;
+}
+.size_nav_login::after{
+	clear: both;
+}
+.size_nav_login_ul_01{
+	float: left;
+	list-style: none;
+	display: flex;
+	padding: 10px;
+	color:#757575 ;
+}
+.size_nav_login_ul_01::after{
+	padding: none;
+}
+.size_nav_login_ul_01 li{
+	line-height: 0.5em;
+	padding-top: 5px;
+	font-size: 13px;
+}
+.size_nav_login_ul_01 span{
+	color: #424242;
+	line-height: 0.5em;
+	margin: 5px;
+}
+.size_nav_login_ul_02{
+	list-style: none;
+	display: flex;
+	padding-left: 30px;
+	width: 120px;
+	height: 40px;
+	color:#757575 ;
+}
+.size_nav_login_ul_02 li{
+	font-size: 13px;
+	padding: 10px 0px;
+}
+.size_head{
+	margin: 20px auto;
+	width: 1226px;
+}
+.size_head_container{
+	height: 60px;
+}
+.size_head_container_div{
+	float: left;
+}
+.size_head_container_first{
+	float: left;
+	height: 60px;
+}
+.size_head_container_sign{
+	width: 55px;
+	height: 55px;
+	padding-right: 10px;
+	display: inline-block;
+}
+.size_head_container_11{
+	width: 165px;
+	height: 60px;
+	display: inline-block;
+}
+.size_head_container_classification_ul{
+	display: flex;
+	list-style: none;
+	padding: 30px 20px 0px 10px;
+	width: 820px;
+	height: 60px;
+}
+.size_head_container_classification_ul li{
+	padding: 0px 10px;
+	color: #333;
+}
+.size_head_container_classification{
+	height: 60px;
+	display: inline-block;
+	width: 630px;
+}
+.size_head_container_search{
+	float: right;
+	font-size: 0px;
+}
+.size_head_container_search_input{
+	display: inline-block;
+	width: 245px;
+	height: 50px;
+	font-size: 0px;
+}
+.size_head_container_search_search{
+	width: 52px;
+	height: 50px;
+	margin-top: 5px;
+	font-size: 0px;
+}
+.size_head_container_search_prompt{}

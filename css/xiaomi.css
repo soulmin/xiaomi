@@ -11,6 +11,7 @@
 	margin: 0px auto;
 	width: 1226px;
 	height: 100%;
+	background: #333333;
 }
 .size_nav_ul{
 	padding: 10px 0px;
@@ -78,6 +79,11 @@
 }
 .size_head_container_div{
 	float: left;
+	height: 60px;
+}
+.size_head_container_div a{
+	height: 60px;
+	display:inline-block;
 }
 .size_head_container_first{
 	float: left;
@@ -85,7 +91,7 @@
 }
 .size_head_container_sign{
 	width: 55px;
-	height: 55px;
+	height: 60px;
 	padding-right: 10px;
 	display: inline-block;
 }
@@ -97,8 +103,7 @@
 .size_head_container_classification_ul{
 	display: flex;
 	list-style: none;
-	padding: 30px 20px 0px 10px;
-	width: 820px;
+	line-height: 80px;
 	height: 60px;
 }
 .size_head_container_classification_ul li{
@@ -113,17 +118,56 @@
 .size_head_container_search{
 	float: right;
 	font-size: 0px;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
 }
 .size_head_container_search_input{
-	display: inline-block;
+	float: left;
 	width: 245px;
-	height: 50px;
+	height: 53px;
 	font-size: 0px;
+	border:1px solid #e0e0e0;
 }
 .size_head_container_search_search{
 	width: 52px;
-	height: 50px;
-	margin-top: 5px;
-	font-size: 0px;
+	height: 55px;
+	float: right;
+	background: #fff;
+	border:1px solid #e0e0e0;
+	
 }
-.size_head_container_search_prompt{}
+.size_head_container_search_prompt{
+	width: 150px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    background: red;
+    overflow: hidden;
+    
+}
+.size_head_container_search_prompt::after{
+	display: block;
+    content:'';
+    clear: both;
+    height:0;
+
+}
+.size_head_container_search::after{
+	display: block;
+    content:'';
+    clear: both;
+    height:0;
+
+}
+.size_head_container_xiaomi8{
+	width: 41px;
+	height: 18px;
+	z-index:2;
+	
+}
+.size_head_container_xiaomimax{
+	width: 74px;
+	height: 17px;
+}

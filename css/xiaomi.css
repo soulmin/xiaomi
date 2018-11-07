@@ -117,17 +117,15 @@
 }
 .size_head_container_search{
 	float: right;
-	font-size: 0px;
 	height: 60px;
 	position: relative;
-	overflow: hidden;
 }
 .size_head_container_search_input{
 	float: left;
 	width: 245px;
 	height: 53px;
-	font-size: 0px;
 	border:1px solid #e0e0e0;
+	padding: 0px 10px;
 }
 .size_head_container_search_search{
 	width: 52px;
@@ -142,32 +140,189 @@
     height: 20px;
     position: absolute;
     top: 20px;
-    left: 90px;
-    background: red;
-    overflow: hidden;
+    left: 130px;
     
 }
-.size_head_container_search_prompt::after{
-	display: block;
-    content:'';
-    clear: both;
-    height:0;
-
+.size_head_container_search_prompt a{
+	text-decoration: none;
+	color: #757575;
+	font-size: 12px;
+	background: #EEEEEE;
 }
-.size_head_container_search::after{
-	display: block;
-    content:'';
-    clear: both;
-    height:0;
-
-}
-.size_head_container_xiaomi8{
-	width: 41px;
-	height: 18px;
-	z-index:2;
-	
+a:hover{
+	cursor: pointer;
+	background: #ff6700;
+	color: #FFFFFF;
 }
 .size_head_container_xiaomimax{
 	width: 74px;
 	height: 17px;
+}
+.size_center{
+	margin: 0 auto;
+	width: 1226px;
+	overflow: hidden;
+}
+.size_center_head{
+	background: #58160D;
+	overflow: hidden;
+}
+.size_center_head_ul{
+	height: 420px;
+	width: 234px;
+	border: 0px;
+	padding: 20px 0px;
+	display: inline-block;
+	float: left;
+}
+.size_center_head_ul a{
+	text-decoration: none;	
+	color: #fff;
+}
+.size_center_head_ul li{
+	height: 42px;
+	font-size: 14px;
+	padding-left: 30px;
+	line-height: 40px;    
+}
+.size_center_head_ul span{
+	float: left;
+}
+.size_center_head_ul i{
+	float: right;
+	padding-right: 20px;
+}
+.size_center_head img{
+	float: right;
+	 height: 460px;
+	 width: 992px;
+}
+.size_center_neck{
+	margin-top: 14px;
+}
+.size_center_neck_left{
+	width: 234px;
+	font-size: 0px;
+	background: #5F5750;
+	height: 170px;
+	display: inline-block;
+}
+.size_center_neck_left a{
+	text-decoration: none;
+	width: 70px;
+	height: 82px;
+	padding-top:18px ;
+	display: inline-block;
+	border: 1px solid #665E57;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 0px 3px;
+	text-align: center;
+	line-height: 30px;
+}
+.size_center_neck_left i{
+	display: block;
+	font-size:26px;
+	padding: 5px 0px;
+}
+.size_center_neck_right{
+	float: right;
+	display: inline-block;
+}
+.size_center_neck_right img{
+	display: inline-block;
+	width: 316px;
+	height: 170px;
+	padding: 0px 3px;
+}
+.size_center_body{
+	margin: 40px 0px;
+}
+.size_center_body_top h2{
+	font-size: 22px;
+	color: #333;
+	font-weight:200;
+	display: inline-block;
+}
+.size_center_body_top_ul01{
+	display: flex;
+	list-style: none;
+	padding: 15px 0px;
+}
+.size_center_body_top_corner{
+	display: inline-block;
+	float: right;
+	font-size: 0px;
+	margin-right: 10px;
+	color: #e0e0e0;
+}
+.size_center_body_top_corner i{
+	border: 1px solid;
+	width: 33px;
+	height: 23px;
+	display: inline-block;
+	text-align: center;
+}
+.size_center_body_top_ul01_li01{
+	background: #F1EDED;
+	text-align: center;
+	line-height: 50px;
+	border-top: 1px #e53935 solid;
+	width: 234px;
+	height: 338px;
+	display: inline-block;
+}
+.size_center_body_top_time{
+	padding:35px 0px 25px 0px;
+	font-size: 21px;
+	color: #ef3a3b;
+}
+.size_center_body_top_time_01{
+	font-size: 15px;
+	color: #706F6F;
+}
+.size_center_body_top_ul01_li01 span{
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+	background: #605751;
+	margin-top: 15px;
+}
+/*.size_center_body_top_ul01:last-child{
+	margin-right: 0px;
+}*/
+.size_center_body_top_ul01_a{
+	background: #FAFAFA;
+	margin-left: 10px;
+	width: 234px;
+	height: 339px;
+	border-top:1px solid #e53935;
+}
+.size_center_body_top_ul01_a img{
+	width: 170px;
+    height: 130px;
+	
+}
+.size_center_body_top_ul01_a li{
+	margin: 55px auto 22px;
+	width: 160px;
+}
+.size_center_body_top_ul01_a h3{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 20px 0px 3px 37px;
+	color: #212121;
+}
+.desc{
+	font-size:12px ;
+	color: #b0b0b0;
+	height: 18px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+}
+.price{
+	text-align: center;
+	color: #ff6709;
+	margin-top: 15px;
 }

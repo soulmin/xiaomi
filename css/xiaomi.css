@@ -1070,7 +1070,7 @@
     width: 41px;
     height: 69px;
     position: absolute;
-    top: 100px;
+    top: 200px;
     right: 10px;
     line-height: 65px;
     text-align: center;
@@ -1086,32 +1086,48 @@
 	top: 400px;
 	right: 30px;
 	font-size: 30px;
-	width: 95px;
 }
 .ellipsis i{
-	display: inline-block;
 	width: 6px;
 	height: 6px;
-	font-size: 25px;
+	font-size: 5px;
 	color: #757575;
+	border: 2px solid #fff;
+	border-color: rgba(255,255,255,0.3);
+	border-radius: 25px;
+	transition: all .2s;
+}
+.sidebox{
+	width: 992px;
+	float: right;
 }
 .lunbo{
 	position: relative;
 	top: 0px;
 	left: 0px;
 	list-style: none;
-	width: auto;
+	width: 4960px;
 	overflow: hidden;
 	display: flex;
 }
 .active{
-	background:rgba(255,255,255,0.4) ;
+	background: #FFFFFF;
+	color: #FF6700;
+}
+.sidebox:hover{
+	cursor: pointer;
 }
 .prev:hover{
-	cursor: pointer;
+	
 	background: #5D0E13;
 }
 .next:hover{
-	cursor: pointer;
+	
 	background: #5D0E13;
+}
+.ellipsis i:hover{
+	
+	transition: all .2s;
+    border-color: rgba(255,255,255,0.3);
+   
 }

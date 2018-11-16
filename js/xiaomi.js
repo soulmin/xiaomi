@@ -20,7 +20,7 @@ $(document).ready(function(){
   	ul.animate({
   			"right":onewidth*sw,		
   	});
-  	ul.fadeIn(onewidth*sw).siblings().fade()
+  	
   });
   
   //左右按钮的控制效果

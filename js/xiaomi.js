@@ -5,7 +5,8 @@ $(document).ready(function(){
   $(".size_center_head_ul_li01").mouseout(function(){
     $(".phone").css("display","none");
   });
-  
+
+
   var sidebox = $(".sidebox")
   var ul = $(".lunbo");
   var dot = $(".ellipsis");
@@ -18,9 +19,9 @@ $(document).ready(function(){
   	$(this).addClass("active").siblings("i").removeClass("active");
   	sw = $(this).index();
   	ul.animate({
-  			"right":onewidth*sw,		
+  			"left": '-' +onewidth*sw +'px',		
   	});
-  	
+  	//$('.default_img').eq(sw).fadeIn(-992).siblings(".default_img").fadeOut(-992);
   });
   
   //左右按钮的控制效果
@@ -49,7 +50,7 @@ $(document).ready(function(){
  					sw = 0;
  				}
  				num.eq(sw).trigger("click");
- 		},3000);
+ 		},6000);
  		
  	//hover事件完成悬停和，左右图标的动画效果
  		sidebox.hover(function(){

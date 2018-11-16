@@ -173,7 +173,6 @@
 	width: 234px;
 	border: 0px;
 	padding: 20px 0px;
-	display: inline-block;
 	float: left;
 
 }
@@ -1100,6 +1099,7 @@
 .sidebox{
 	width: 992px;
 	float: right;
+	overflow: hidden;
 }
 .lunbo{
 	position: relative;
@@ -1107,7 +1107,7 @@
 	left: 0px;
 	list-style: none;
 	width: auto;
-	overflow: hidden;
+	
 	display: flex;
 }
 .active{

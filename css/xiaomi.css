@@ -1012,6 +1012,7 @@
     background: #FFFFFF;
     color: #333333;
     font-size: 14px;
+    z-index: 1;
 }
 .phone_ul_01{
 	position: absolute;

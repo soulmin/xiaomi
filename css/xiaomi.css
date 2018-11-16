@@ -166,6 +166,7 @@
 .size_center_head{
 	background: #58160D;
 	overflow: hidden;
+	position: relative;
 }
 .size_center_head_ul{
 	height: 420px;
@@ -174,25 +175,26 @@
 	padding: 20px 0px;
 	display: inline-block;
 	float: left;
+
 }
 .size_center_head_ul a{
 	text-decoration: none;	
 	color: #fff;
 }
-.size_center_head_ul li{
+.size_center_head_ul_li01{
 	height: 42px;
 	font-size: 14px;
 	padding-left: 30px;
 	line-height: 40px;    
 }
-.size_center_head_ul span{
+.nav_phone {
 	float: left;
 }
 .size_center_head_ul i{
 	float: right;
 	padding-right: 20px;
 }
-.size_center_head img{
+.default_img{
 	float: right;
 	 height: 460px;
 	 width: 992px;
@@ -331,8 +333,9 @@
 	height: 120px;
 }
 .size_body{
-	margin: 40px 0px 40px 0px;
+	margin: 40px auto;
 	background: #F5F5F5;
+	width: 1226px;
 }
 .size_body_first{
 	margin: 0 auto;
@@ -422,7 +425,6 @@
 	margin-bottom: 30px;
 }
 .size_body_second{
-	margin: 30px auto;
 	width: 1226px;
 	background-color: #F5F5F5;
 }
@@ -854,9 +856,6 @@
 	width: 1226px;
 	border-bottom: 1px solid #e0e0e0;	
 }
-.size_footer{
-	
-}
 .repair{
 	display: flex;
 	list-style: none;
@@ -1003,4 +1002,116 @@
 	font-size: 20px;
 	color: #C0C0C0;
 	padding: 40px 0px 30px 0px;
+}
+.phone{
+	display: none;
+    height: 460px;
+    width: 992px;
+    position: absolute;
+    top: 0px;
+    left: 235px;
+    background: #FFFFFF;
+    color: #333333;
+    font-size: 14px;
+}
+.phone_ul_01{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 25px;
+}
+.phone ul{
+	list-style: none;
+	width: 248px;
+}
+.phone li{
+	width: 265px;
+	height: 76px;
+}
+.phone_ul_02{
+	position: absolute;
+    top: 0px;
+    left: 248px;
+}
+.phone_ul_03{
+	position: absolute;
+    top: 0px;
+    left: 496px;
+}
+.phone_ul_04{
+	position: absolute;
+    top: 0px;
+    left: 744px;
+}
+.phone img{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.phone span{
+	display: inline-block;
+	margin-left:30px ;
+}
+.prev{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top:200px;
+	left: 250px;
+	line-height: 65px;
+    text-align: center;
+}
+.prev i{
+	display: block;
+	font-size:45px ;
+	color: #757575;
+}
+.next{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.next i{
+	display: block;
+	font-size:45px ;
+	color: #757575;
+}
+.ellipsis{
+	position: absolute;
+	top: 400px;
+	right: 30px;
+	font-size: 30px;
+	width: 95px;
+}
+.ellipsis i{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	font-size: 25px;
+	color: #757575;
+}
+.lunbo{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	list-style: none;
+	width: auto;
+	overflow: hidden;
+	display: flex;
+}
+.active{
+	background:rgba(255,255,255,0.4) ;
+}
+.prev:hover{
+	cursor: pointer;
+	background: #5D0E13;
+}
+.next:hover{
+	cursor: pointer;
+	background: #5D0E13;
 }
